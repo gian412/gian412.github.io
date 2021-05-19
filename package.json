@@ -1,0 +1,41 @@
+{
+  "name": "gian412.github.io",
+  "version": "0.0.1",
+  "description": "Gianluca's site",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gian412/gian412.github.io.git"
+  },
+  "keywords": [
+    "Personal",
+    "site",
+    "Blog"
+  ],
+  "author": "Gianluca Regis",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/gian412/gian412.github.io/issues"
+  },
+  "homepage": "https://github.com/gian412/gian412.github.io#readme",
+  "dependencies": {
+    "date-fns": "^2.21.3",
+    "gray-matter": "^4.0.3",
+    "next": "^10.2.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "remark": "^13.0.0",
+    "remark-html": "^13.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^15.3.0",
+    "@types/react": "^17.0.6",
+    "typescript": "^4.2.4"
+  }
+}
